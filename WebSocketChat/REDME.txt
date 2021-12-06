@@ -1,0 +1,9 @@
+Python version - 3.9.1
+
+Used modules: asyncio, websockets, sqlite3, json, time, sys
+
+You need to create db file named "db.sqlite3" and create table in it named "messages" with fields:
+id - INTEGER NOT NULL UNIQUE
+user - TEXT NOT NULL
+message - TEXT NOT NULL
+date - TEXT NOT NULL
